@@ -4,7 +4,7 @@
 
 terraform {
   backend "remote" {
-    hostname = "app.terraform.io"
+    hostname     = "app.terraform.io"
     organization = "ravi-tf-cloud"
     workspaces {
       name = "hashicat-aws"
