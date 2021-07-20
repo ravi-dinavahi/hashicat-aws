@@ -5,6 +5,6 @@ module "s3-bucket" {
   acceleration_status = ""
   bucket = ""
   bucket_prefix = "ravi-dinavahi"
-  polciy = ""
+  policy = ""
   request_payer = ""
 }
